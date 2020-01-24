@@ -81,27 +81,24 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 .nav-bar {
-	width: 90%;
+	width: 80%;
 	height: 90px;
-	margin: 0% 5%;
+	margin: 0% 10%;
 	display: flex;
 	flex-flow: row wrap;
 	justify-content: space-around;
 	align-items: center;
-	border: 1px solid red;
 }
 
 
 .services-header-img{
-	border: 1px solid blue;
-	width: 90%;
-	margin: 0% 5%;
+	width: 80%;
+	margin: 0% 10%;
 }
 
 .services {
-	border: 1px solid red;
-	width: 90%;
-	margin:1% 5%;
+	width: 80%;
+	margin:1% 10%;
 }
 
 h1 {
@@ -113,15 +110,14 @@ h2 {
 }
 
 hr {
-	width: 90%;
+	width: 80%;
 }
 
 .body {
-	border: 1px solid red;
 	display: flex;
-	width: 90%;
+	width: 80%;
 	height: 90%;
-	margin: 0% 5%;
+	margin: 0% 10%;
 	flex-flow: row wrap;
 	justify-content: space-between;
 	align-content: space-around;
@@ -132,7 +128,6 @@ hr {
 	display: flex;
 	width: 48%;
 	justify-content: space-between;
-	align-content: space-between;
 	background: #f4f3f4;
 	flex-flow: column wrap;
 	padding: 2%;
@@ -149,16 +144,27 @@ hr {
 }
 
 .facts {
-	border: 1px solid red;
-	widows: 90%;
-	margin: 1% 5%;
+	widows: 80%;
+	margin: 1% 10%;
 	display: flex;
 	flex-flow: row wrap;
 	justify-content: space-between;
 	align-content: space-between;
-
 }
+
+.facts div {
+	display: flex;
+	width: 48%;
+	flex-flow: row wrap;
+}
+
 
 ul {
 	list-style-type: disc;
+	margin-left: 19px;
+}
+
+footer {
+	text-align: center;
+	margin: 2%;
 }
