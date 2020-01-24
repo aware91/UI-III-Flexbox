@@ -82,30 +82,34 @@ h1, h2, h3, h4, h5 {
 /* Your code starts here! */
 .nav-bar {
 	width: 90%;
-	height: 10%;
-	margin-left: 5%;
-	margin-right: 5%;
+	height: 90px;
+	margin: 0% 5%;
 	display: flex;
 	flex-flow: row wrap;
-	justify-content: space-evenly;
+	justify-content: space-around;
 	align-items: center;
 	border: 1px solid red;
 }
 
-.img-services {
-	border: 1px solid red;
-	display: flex;
-	flex-flow: column wrap;
+
+.services-header-img{
+	border: 1px solid blue;
 	width: 90%;
-	margin-left: 5%;
-	margin-right: 5%;
-	align-items: space-evenly;
-	justify-content: space-evenly;
+	margin: 0% 5%;
 }
 
-.img-services div {
-	border: 1px solid blue;
-	width: 100%;
+.services {
+	border: 1px solid red;
+	width: 90%;
+	margin:1% 5%;
+}
+
+h1 {
+	font-size: 2em;
+}
+
+h2 {
+	font-size: 1.25em;
 }
 
 hr {
@@ -116,9 +120,8 @@ hr {
 	border: 1px solid red;
 	display: flex;
 	width: 90%;
-	height: 60%;
-	margin-left: 5%;
-	margin-right: 5%;
+	height: 90%;
+	margin: 0% 5%;
 	flex-flow: row wrap;
 	justify-content: space-between;
 	align-content: space-around;
@@ -127,17 +130,35 @@ hr {
 .body div {
 	border: 1px solid black;
 	display: flex;
-	width: 45%;
+	width: 48%;
 	justify-content: space-between;
 	align-content: space-between;
 	background: #f4f3f4;
 	flex-flow: column wrap;
-	
+	padding: 2%;
 }
 
 .button {
 	border: 1px solid black;
+	border-radius: 5px;
 	width: 20%;
 	text-align: center;
 	background: white;
+	margin-top: 2%;
+	padding: 1% 0%;
+}
+
+.facts {
+	border: 1px solid red;
+	widows: 90%;
+	margin: 1% 5%;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+	align-content: space-between;
+
+}
+
+ul {
+	list-style-type: disc;
 }
