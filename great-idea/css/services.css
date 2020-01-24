@@ -81,8 +81,10 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 .nav-bar {
-	width: 100%;
+	width: 90%;
 	height: 10%;
+	margin-left: 5%;
+	margin-right: 5%;
 	display: flex;
 	flex-flow: row wrap;
 	justify-content: space-evenly;
@@ -90,8 +92,52 @@ h1, h2, h3, h4, h5 {
 	border: 1px solid red;
 }
 
-.img {
-	width: 100%;
+.img-services {
+	border: 1px solid red;
 	display: flex;
+	flex-flow: column wrap;
+	width: 90%;
+	margin-left: 5%;
+	margin-right: 5%;
+	align-items: space-evenly;
+	justify-content: space-evenly;
+}
 
+.img-services div {
+	border: 1px solid blue;
+	width: 100%;
+}
+
+hr {
+	width: 90%;
+}
+
+.body {
+	border: 1px solid red;
+	display: flex;
+	width: 90%;
+	height: 60%;
+	margin-left: 5%;
+	margin-right: 5%;
+	flex-flow: row wrap;
+	justify-content: space-between;
+	align-content: space-around;
+}
+
+.body div {
+	border: 1px solid black;
+	display: flex;
+	width: 45%;
+	justify-content: space-between;
+	align-content: space-between;
+	background: #f4f3f4;
+	flex-flow: column wrap;
+	
+}
+
+.button {
+	border: 1px solid black;
+	width: 20%;
+	text-align: center;
+	background: white;
 }
